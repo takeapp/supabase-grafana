@@ -4,7 +4,7 @@ services:
   supabase-grafana:
     build: ./
     ports:
-      - 8000:8080
+      - 8001:8080
     environment:
       SUPABASE_ACCESS_TOKEN: ${SUPABASE_ACCESS_TOKEN}
       SUPABASE_ORGANIZATION_ID: ${SUPABASE_ORGANIZATION_ID}
